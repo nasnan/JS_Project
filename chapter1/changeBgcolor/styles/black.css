@@ -1,0 +1,12 @@
+body
+{
+	background-color: #ccc;
+}
+#colorList li .current div
+{
+	display: block;
+}
+#colorList li .current, #header li
+{
+	background-color: black;
+}

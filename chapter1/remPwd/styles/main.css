@@ -1,0 +1,19 @@
+
+
+#outer{
+	margin: 0 auto;
+	width: 200px;
+}
+
+#msgdiv{
+	width: 100%;
+	background-color:#ffefa4;
+	border:1px solid #f90;
+	padding: 5px;
+	margin: 2px;
+	display: none;
+}
+#msgdiv p
+{
+	margin: 0;
+}

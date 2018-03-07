@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+	margin: 0 auto;
+	width: 520px;
+	padding-top: 15px;
+}
+
+#divouter
+{
+	float: none;
+	clear: both;
+	margin-top: 10px;
+}
+
+.divit
+{
+	width:150px;
+	height: 150px;
+	background-color: red;
+	float: left;
+	display: inline-block;
+	margin: 10px 10px;
+}

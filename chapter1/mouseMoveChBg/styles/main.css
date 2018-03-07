@@ -1,0 +1,21 @@
+body{
+	margin: 0 auto;
+	width: 200px;
+	padding: 10px;
+}
+
+
+#thed{
+	width: 150px;
+	height: 150px;
+	background-color: #000;
+	color: #fff;
+	padding: 15px;
+	border: 10px solid #000;
+}
+
+#thed.foc{
+	color: red;
+	background-color: #f0f0f0;
+	border: 10px solid red;
+}

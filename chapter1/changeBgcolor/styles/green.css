@@ -1,0 +1,12 @@
+body
+{
+	background-color: #A3C5A8;;
+}
+#colorList li .current div
+{
+	display: block;
+}
+#colorList li, #header li
+{
+	background-color: green;
+}

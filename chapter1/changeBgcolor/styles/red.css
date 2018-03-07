@@ -1,0 +1,12 @@
+body
+{
+	background-color: #fdd;
+}
+#colorList li .current div
+{
+	display: block;
+}
+ #header li
+{
+	background-color: red;
+}
