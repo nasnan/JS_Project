@@ -1,0 +1,24 @@
+#outer{
+	margin: 0 auto;
+	width: 80px;
+}
+#chlist{
+	border: 1px solid #9a99ff;
+	margin-top: 6px;
+	color: #00c;
+	cursor: pointer;
+	display: none;
+}
+#chlist div{
+	padding: 5px; 
+}
+#chlist .cloli{
+	border-top: 1px solid #9a99ff;
+}
+#chlist .here
+{
+	background-color: #d9e1f6;
+}
+#chosbt{
+	cursor: pointer;
+}

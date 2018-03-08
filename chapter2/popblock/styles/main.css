@@ -1,0 +1,64 @@
+body,div,h2{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+}
+center{
+	padding-top: 10px;
+}
+#bcg{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#popblc{
+	width: 400px;
+	height: 200px;
+	background-color: #fff;
+	border: 4px solid #f90;
+	opacity: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -102px -202px;
+	display: none;
+}
+#pptop{
+	background-color: #FC0;
+	border-bottom: 3px solid #f90;
+}
+#popblc h2{
+	text-align: right;
+	font-size: 12px;
+	margin: 0;
+	padding: 5px;
+
+}
+ h2 span{
+	background: #fff;
+	border: 1px solid #f90;
+	color: #f90;
+	padding: 0 2px;
+	font-family: Tahoma;
+	font-weight: bold;
+	cursor: pointer;
+}
+button{
+	cursor: pointer;
+}

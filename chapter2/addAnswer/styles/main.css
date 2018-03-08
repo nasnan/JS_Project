@@ -1,0 +1,22 @@
+#outer{
+	width: 500px;
+	margin: 0 auto;
+}
+#outer p{
+	display: inline;
+	color: #999;
+}
+#outer button{
+	display: block;
+	margin-top: 10px;
+}
+#ipt{
+	width: 220px;
+	margin-right: 10px;
+	padding: 3px;
+}
+#outer #answer{
+	font-weight: bold;
+	color: #000;
+	font-size:15px;
+}
