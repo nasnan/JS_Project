@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#wrap{
+	margin: 0 auto;
+	width: 200px;
+	background-color: #e9edf2;
+	border: 1px solid #ccc;
+
+}
+ul{
+	list-style-type: none;
+	display: block;
+}
+#wrap #listtop{
+	border: 1px solid #fff;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background-color: #ced3d7;
+	color: #57646E;
+	cursor: pointer;
+	background:  #ced3d7 url(../img/ico.gif) 180px 15px no-repeat;
+	padding-left: 10px;
+}
+
+#wrap ul li a{
+	color: #6b7980;
+	text-decoration: none;
+	height: 25px;
+	padding: 0 10px;
+	line-height: 25px;
+	width: 100%;
+}
+#wrap ul li:hover{
+	background-color: #fff;
+	text-decoration: underline;
+}
