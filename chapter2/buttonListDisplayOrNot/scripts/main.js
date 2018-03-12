@@ -12,15 +12,6 @@ function listchange(){
 			listtop.style.backgroundPosition="180px 15px";
 		}
 	}
-	// for(var i=0;i<links.length;i++){
-	// 	links[i].onmouseover=function(){
-	// 		this.style.backgroundColor="#fff";
-	// 		this.style.textDecoration="underline";
-	// 	}
-	// 	links[i].onmouseout=function(){
-	// 		this.removeAttribute("style")
-	// 	}
-	// }
 }
 
 window.onload=listchange;
