@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type: none;
+}
+#outer{
+	width:500px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+#outer #chooses{
+	background-color: #000;
+	color: #fff;
+	border-bottom: 1px solid #000;
+}
+#outer #chooses li{
+	display: inline-block; 
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 20px;
+}
+#outer #chooses li #lists{
+	display: none;
+}
+#outer #chooses .current{
+	background-color: #ccc;
+	color: #000;
+}
+#outer #lists ul{
+	list-style-type: disc;
+	margin: 0px 30px ;
+	padding-top: 10px;
+	line-height: 25px;
+	display: none;
+}
+#outer #lists #crt{
+	display: block;
+}
