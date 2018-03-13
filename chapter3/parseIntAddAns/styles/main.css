@@ -1,0 +1,19 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+}
+p{
+	font-weight: bold;
+}
+input{
+	width: 50px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	padding: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+span{
+	margin: 10px;
+	color: green;
+}
