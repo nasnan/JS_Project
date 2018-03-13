@@ -21,6 +21,10 @@ demo合集，实现网页[实例索引](http://www.fgm.cc/learn/)上的demo
 * [简易JS年历](https://github.com/nasnan/JS_Project/tree/master/chapter2/calendar)
 * [单一按钮显示/隐藏一播放列表收缩展开]()
 * [提示框效果](https://github.com/nasnan/JS_Project/tree/master/chapter2/calendar)
-* [鼠标移过，修改图片路径]()
-* [复选框（checkbox）全选/全不选/返选]()
-* []()
+* [鼠标移过，修改图片路径](https://github.com/nasnan/JS_Project/tree/master/chapter2/changeImgUrl)
+* [复选框（checkbox）全选/全不选/返选](https://github.com/nasnan/JS_Project/tree/master/chapter2/checkbox)
+
+### [第三节](https://github.com/nasnan/JS_Project/tree/master/chapter3)
+* [用parseInt解析数字，并求和](https://github.com/nasnan/JS_Project/tree/master/chapter3/parseIntAddAns)
+* [累加按钮，自加1](https://github.com/nasnan/JS_Project/tree/master/chapter3/addSelfBtn)
+* [输入两个数字，比较大小](https://github.com/nasnan/JS_Project/tree/master/chapter3/findBiggerNum)
