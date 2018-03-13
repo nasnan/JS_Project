@@ -1,6 +1,6 @@
 function popImg(){
-	carsul=document.getElementById("carsul");
-	cars=carsul.getElementsByTagName("li");
+	var carsul=document.getElementById("carsul");
+	var cars=carsul.getElementsByTagName("li");
 	for(var i=0;i<cars.length;i++){
 		
 		cars[i].onmouseover=function(){

@@ -1,6 +1,6 @@
 function dspDiv(){
 	var btn=document.getElementById("chosbt");
-	chlist=document.getElementById("chlist");
+	var chlist=document.getElementById("chlist");
 	btn.onclick=function(){
 		chlist.style.display=chlist.style.display=="block"?"none":"block";
 	}

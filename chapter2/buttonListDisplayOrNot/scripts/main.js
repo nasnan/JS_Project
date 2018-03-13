@@ -1,7 +1,7 @@
 function listchange(){
-	listtop=document.getElementById("listtop");
-	linksul=document.getElementById("linksul");
-	links=linksul.getElementsByTagName("li");
+	var listtop=document.getElementById("listtop");
+	var linksul=document.getElementById("linksul");
+	var links=linksul.getElementsByTagName("li");
 	listtop.onclick=function(){
 		linksul.style.display=linksul.style.display=="none"?"block":"none";
 		if (linksul.style.display=="none")

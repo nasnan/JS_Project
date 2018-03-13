@@ -1,7 +1,7 @@
 function popblk(){
-	btn=document.getElementsByTagName("button")[0];
-	popbcg=document.getElementById("bcg");
-	popblc=document.getElementById("popblc");
+	var btn=document.getElementsByTagName("button")[0];
+	var popbcg=document.getElementById("bcg");
+	var popblc=document.getElementById("popblc");
 	btn.addEventListener('click',function(e){
 		
 		popbcg.style.display="block";

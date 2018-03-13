@@ -5,7 +5,7 @@ function returnadd(){
 	ipt.onkeyup=function(){
 		this.value=this.value.replace(/[^((\d)|(,))]/,'');
 	}
-	btn.onclick=function(){
+	btn.onclick=function(as){
 		var nums=ipt.value.split(",");
 		var answer=0;
 		console.log(nums)

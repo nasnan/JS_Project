@@ -1,8 +1,8 @@
 function changeCol(){
-	btn=document.getElementsByTagName("button")[0];
+	var btn=document.getElementsByTagName("button")[0];
 
-	divouter=document.getElementById("divouter");
-	divs=divouter.getElementsByTagName("div");
+	var divouter=document.getElementById("divouter");
+	var divs=divouter.getElementsByTagName("div");
 
 	btn.onclick=function(){
 		for(var i=0;i<divs.length;i++){

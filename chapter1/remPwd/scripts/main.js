@@ -1,7 +1,7 @@
 
 function alertmsg(){
-	ckb=document.getElementById("ckblb");
-	msg=document.getElementById("msgdiv");
+	var ckb=document.getElementById("ckblb");
+	var msg=document.getElementById("msgdiv");
 	ckb.onmouseover=function(){
 		msg.style.display="block";
 	}

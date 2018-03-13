@@ -13,10 +13,10 @@ function calendar(){
 		"立冬：11月8日立冬。不放假。",
 		"艾滋病日:12月1日<br />废除奴隶制国际日:12月2日。"
 		]
-	mons=document.getElementById("mons");
-	monlis=mons.getElementsByTagName("li");
-	expl=document.getElementById("expl");
-	fesh=expl.getElementsByTagName("h3")[0];
+	var mons=document.getElementById("mons");
+	var monlis=mons.getElementsByTagName("li");
+	var expl=document.getElementById("expl");
+	var fesh=expl.getElementsByTagName("h3")[0];
 	// console.log(fesh.innerHTML)
 	fescont=expl.getElementsByTagName("p")[0];
 	for (var i=0;i<monlis.length;i++){

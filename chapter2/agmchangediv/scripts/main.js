@@ -1,6 +1,6 @@
 function getargument(){
-	inputs=document.getElementsByTagName("input");
-	agms=[];
+	var inputs=document.getElementsByTagName("input");
+	var agms=[];
 	for(var i=0;i<inputs.length;i++){
 		agms[i]=inputs[i].value;
 	}

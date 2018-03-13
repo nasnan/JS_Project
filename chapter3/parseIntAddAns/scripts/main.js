@@ -1,7 +1,7 @@
 function addAnswer(){
-	nums=document.getElementsByTagName("input");
-	ans=document.getElementById("ans");
-	btn=document.getElementsByTagName("button")[0];
+	var nums=document.getElementsByTagName("input");
+	var ans=document.getElementById("ans");
+	var btn=document.getElementsByTagName("button")[0];
 	for(var i=0;i<nums.length;i++){
 		nums[i].onkeyup=function(){
 			this.value=this.value.replace(/[^(\d)]/,'')

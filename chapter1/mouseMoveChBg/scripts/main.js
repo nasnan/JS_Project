@@ -1,6 +1,6 @@
 function movemouse(){
 
-	div=document.getElementById("thed");
+	var div=document.getElementById("thed");
 	console.log(div)
 	div.onmouseover=function(){
 		console.log("act")

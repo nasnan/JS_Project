@@ -1,9 +1,9 @@
 function chooselists(){
 
-	chooseul=document.getElementById("chooses");
-	chooses=chooseul.getElementsByTagName("li");
-	lists=document.getElementById("lists");
-	listsul=lists.getElementsByTagName("ul");
+	var chooseul=document.getElementById("chooses");
+	var chooses=chooseul.getElementsByTagName("li");
+	var lists=document.getElementById("lists");
+	var listsul=lists.getElementsByTagName("ul");
 	for(var i=0;i<chooses.length;i++){
 		chooses[i].index=i;
 		chooses[i].onmouseover=function(){

@@ -1,7 +1,7 @@
 function chkbox(){
-	choall=document.getElementById("choall");
-	chkboxs=document.getElementsByTagName("input");
-	antielec=document.getElementsByTagName("p")[0].getElementsByTagName("span")[0];
+	var choall=document.getElementById("choall");
+	var chkboxs=document.getElementsByTagName("input");
+	var antielec=document.getElementsByTagName("p")[0].getElementsByTagName("span")[0];
 
 	function isAllChoose(){
 		var labelitem=document.getElementsByTagName("strong")[0];

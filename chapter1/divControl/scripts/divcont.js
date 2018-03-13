@@ -1,11 +1,7 @@
 function divControl()
 {
-	item=document.getElementById("item");
-	buttons=document.getElementsByTagName("button");
-	item.oldw=item.style.width;
-	item.oldh=item.style.height;
-	item.oldbc=item.style.backgroundColor;
-
+	var item=document.getElementById("item");
+	var buttons=document.getElementsByTagName("button");
 	var act=["width","height","backgroundColor","display"];
 	var val=["300px","300px","#555","none"];
 	
@@ -16,10 +12,7 @@ function divControl()
 		{
 			buttons[i].onclick=function()
 			{
-				item.style["width"]=item.oldw;
-				item.style["height"]=item.oldh;
-				item.style["backgroundColor"]=item.olbc;
-				item.style["display"]="block";
+				item.removeAttribute("style");
 			}
 		}
 		else
