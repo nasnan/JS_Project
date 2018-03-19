@@ -55,12 +55,14 @@ function returnEquation(equation,symbolnow,symbolold,big){
 	}
 
 	if(/[0-9]/.test(symbolhtml)){	//当前按键为数字
+		if(equation.length<11){
 		equation+=symbolhtml;
 		if(/[0-9|\.]/.test(symbolold.text())){
 			big+=symbolhtml;
 		}
 		else{
 			big=symbolhtml;	
+		}
 		}
 	}
 
