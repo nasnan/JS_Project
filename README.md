@@ -28,3 +28,7 @@ demo合集，实现网页[实例索引](http://www.fgm.cc/learn/)上的demo
 * [用parseInt解析数字，并求和](https://github.com/nasnan/JS_Project/tree/master/chapter3/parseIntAddAns)
 * [累加按钮，自加1](https://github.com/nasnan/JS_Project/tree/master/chapter3/addSelfBtn)
 * [输入两个数字，比较大小](https://github.com/nasnan/JS_Project/tree/master/chapter3/findBiggerNum)
+* [页面加载后累加，自加1](https://github.com/nasnan/JS_Project/tree/master/chapter3/loadedAddSelf)
+* [判断数字是否为两位数](https://github.com/nasnan/JS_Project/tree/master/chapter3/isDbDigit)
+* [网页计算器](https://github.com/nasnan/JS_Project/tree/master/chapter3/webComputer)
+* []()
