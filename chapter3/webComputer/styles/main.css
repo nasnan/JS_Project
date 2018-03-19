@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#outer{
+	margin: 10px auto;
+	width: 300px;
+	background-color: black;
+	color: #fff;
+}
+#top{
+	height: 20px;
+}
+#answrap{
+	height: 84px;
+	text-align: right;
+	background-color: #ccc;
+	color: #000;
+}
+#equation{
+	height: 10px;
+}
+#ans{
+	font: 700 50px/74px Arial;
+
+}
+
+#keyboard{
+	padding: 17px 0 0 8px;
+	position: relative;
+}
+#keyboard ul li{
+	width: 63px;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	font-weight: bold;
+	background-color: #666;
+	display: inline-block;
+	margin: 0 10px 17px 0px;
+	float: left;
+	
+}
+
+#keyboard ul li.bigsymbol{
+	height: 99px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	line-height: 99px;
+}
+
+#keyboard ul li.bignum{
+	width: 136px;
+}
+
+
+
+.clear{
+	clear: both;
+}
