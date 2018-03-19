@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 	var equation="";
+	var big="";
 	var ans=0;
 
 	$("li").click(function(e){
@@ -9,31 +10,33 @@ $(document).ready(function(){
 		$(this).addClass("now");
 		if(old && $(old).text()=="="){	//开始新的算式
 			equation="";
+			big="";
 		}
 		if(clk!="c" && clk!="=")		//当前按键非清空或等于
 		{
 			equation=returnEquation(equation,e.target,old);
-			$("#ans").text("0");
+			big=nowBignum(big,e.target,old);
+			$("#ans").text(big);
 		}
 		if(clk=="="){
 			var ans=0;
 			ans=eval(equation);
+			if(ans>9999999999 || ans<-9999999999)
+				ans="too long";
+			if(ans.toString().length>10)
+				ans=ans.toString().slice(0,11)
 			$("#ans").text(ans);
 		}
 		if(clk=="c"){
 			equation="";
 			$(".dot").attr("dotted","false");
+			$("#ans").text("0");
 		}
 		$("#equation").text(equation);
 
 
 
 	})
-
-
-
-
-
 })
 
 
@@ -72,3 +75,26 @@ function returnEquation(equation,symbolnow,symbolold){
 	return equation;
 }
 
+function nowBignum(big,symbolnow,symbolold){
+	var nowtext=symbolnow.innerHTML;
+	if(!symbolold.text()){	//刚刚开始
+		big=nowtext;
+	}
+	else{
+		var oldcls=symbolold.attr("class");
+		var nowcls=symbolnow.className;
+		if(nowcls.indexOf(oldcls)!=-1){		//类型和前面一样
+			if(oldcls.indexOf("num")!=-1){	//都是数字
+				big+=nowtext;
+			}
+			if(oldcls.indexOf("count")!=-1){	//都是符号
+				big=nowtext;
+			}
+		}
+		else{	//类型不同替换
+			big=nowtext;
+		}
+
+	}
+	return big;
+}
