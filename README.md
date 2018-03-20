@@ -1,10 +1,10 @@
 # JS_Project
 demo合集，实现网页[实例索引](http://www.fgm.cc/learn/)上的demo
-</br></br></br>
+
 
 ### [第一节](https://github.com/nasnan/JS_Project/tree/master/chapter1)
-* [控制Div属性](https://github.com/nasnan/JS_Project/tree/master/chapter1/divControl)
-* [网页换肤](https://github.com/nasnan/JS_Project/tree/master/chapter1/changeBgcolor)
+* [控制Div属性](https://github.com/nasnan/JS_Project/tree/master/chapter1/divControl/divcont.html)
+* [网页换肤](https://github.com/nasnan/JS_Project/tree/master/chapter1/changeBgcolor/divcont.html)
 * [函数接收参数并弹出](https://github.com/nasnan/JS_Project/tree/master/chapter1/alertArg)
 * [用循环将三个Div变成红色](https://github.com/nasnan/JS_Project/tree/master/chapter1/changeDivColor)
 * [鼠标移入/移出改变样式](https://github.com/nasnan/JS_Project/tree/master/chapter1/mouseMoveChBg)
