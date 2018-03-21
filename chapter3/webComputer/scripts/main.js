@@ -4,6 +4,9 @@ $(document).ready(function(){
 	var big="";
 	var ans=0;
 
+
+	clickAnimation();
+
 	$("li").click(function(e){
 		clk=e.target.innerHTML;
 		var old=$(".now") && $(".now").removeClass("now");
@@ -29,6 +32,11 @@ $(document).ready(function(){
 			$("#ans").text("0");
 		}
 		$("#equation").text(equation);
+	})
+
+
+	$(document).keydown(function(e){
+		keydownfct(e);
 	})
 })
 
@@ -97,4 +105,54 @@ function returnAns(equation){
 		ans=ans.toString().slice(0,11)
 	$("#ans").text(ans);
 	return ans;
+}
+
+function keydownfct(e){		//键盘按键处理
+	code=e.keyCode;
+	switch(code){
+		case 67:$("#cl").trigger("click");break;
+		case 111:$("#devided").trigger("click");break;
+		case 106:$("#multiply").trigger("click");break;
+		case 103:$("#seven").trigger("click");break;
+		case 55:$("#seven").trigger("click");break;
+		case 104:$("#eight").trigger("click");break;
+		case 56:$("#eight").trigger("click");break;
+		case 105:$("#nine").trigger("click");break;
+		case 57:$("#nine").trigger("click");break;
+		case 109:$("#subtracition").trigger("click");break;
+		case 100:$("#four").trigger("click");break;
+		case 52:$("#four").trigger("click");break;
+		case 101:$("#five").trigger("click");break;
+		case 53:$("#five").trigger("click");break;
+		case 102:$("#six").trigger("click");break;
+		case 54:$("#six").trigger("click");break;
+		case 107:$("#add").trigger("click");break;
+		case 97:$("#one").trigger("click");break;
+		case 49:$("#one").trigger("click");break;
+		case 98:$("#two").trigger("click");break;
+		case 50:$("#two").trigger("click");break;
+		case 99:$("#three").trigger("click");break;
+		case 51:$("#three").trigger("click");break;
+		case 96:$("#zero").trigger("click");break;
+		case 48:$("#zero").trigger("click");break;
+		case 13:$("#equal").trigger("click");break;
+		case 110:$("#dot").trigger("click");break;
+	}
+}
+
+
+function clickAnimation(){
+
+	$(".num").click(function(e){
+		// if($(e.target).hasClass("amt")){
+		// 	$(e.target).removeClass("amt")
+		// }
+		$(e.target).addClass("amt");
+		setTimeout(function(){
+			$(e.target).removeClass("amt");
+		},1000)
+	})
+
+
+
 }

@@ -40,7 +40,7 @@
 	margin: 0 10px 17px 0px;
 	float: left;
 	font: 600 20px/41px Arial;
-	
+	border-radius: 15px;
 }
 
 #keyboard ul li.bigsymbol{
@@ -65,7 +65,7 @@
 	color: #333;
 }
 
-#keyboard ul li.num.now ,#keyboard ul li.cl.now,#keyboard ul li.eq.now{
+.num.amt{
 	animation: numcolorchange 1s;
 }
 
