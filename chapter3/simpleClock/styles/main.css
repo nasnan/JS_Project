@@ -1,0 +1,23 @@
+body{
+	font: 16px/1.5 \5fae\8f6f\96c5\9ed1;
+}
+
+#wrap{
+	background-color: #1a1a1a;
+	color: #fff;
+	margin: 10px auto;
+	width: 300px;
+	padding: 20px 0px;
+	text-align: center;
+
+}
+
+
+span{
+	background-color: #fff;
+	color: #1a1a1a;
+	border: 2px solid #b4b4b4;
+	padding: 0 10px;
+	line-height: 25px;
+	margin: 10px;
+}
