@@ -6,7 +6,7 @@ $(document).ready(function(){
 	function setCountDown(){
 		$("p").text($("p").text()-1);
 		if(parseInt($("p").text())==3){
-			timeflash=setInterval(flash,500);
+			timeflash=setInterval(flash,499);
 			$($("p")).addClass("three");
 		}
 		if(parseInt($("p").text())==0){

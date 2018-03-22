@@ -1,10 +1,11 @@
 #outer{
-	width: 100px;
 	text-align: center;
 	margin: 10px auto;
 	background-color: #ccc;
 	padding: 10px;
 	height: 27px;
+	width: 27px;
+    border-radius: 27px;
 }
 
 p{
