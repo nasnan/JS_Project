@@ -35,4 +35,4 @@ demo合集，实现网页[实例索引](http://www.fgm.cc/learn/)上的demo
 * [判断数字是否为两位数](https://nasnan.github.io/JS_Project/chapter3/isDbDigit/main.html)
 * [网页计算器](https://nasnan.github.io/JS_Project/chapter3/webComputer/main.html)
 * [简易网页时钟](https://nasnan.github.io/JS_Project/chapter3/simpleClock/main.html)
-* [倒计时时钟（10秒）](https://nasnan.github.io/JS_Project/chapter3/countDownClock/main.htm)
+* [倒计时时钟（10秒）](https://nasnan.github.io/JS_Project/chapter3/countDownClock/main.html)
