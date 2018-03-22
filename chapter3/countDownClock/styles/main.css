@@ -1,0 +1,13 @@
+#outer{
+	width: 100px;
+	text-align: center;
+	margin: 10px auto;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+p{
+	margin: 0;
+	font-weight: 700;
+	font-size: 17px;
+}
