@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #000;
+}
+ul{
+	list-style-type: none;
+}
+#image{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#wrap{
+	margin: 10px auto;
+	width: 490px;
+	height: 170px;
+	overflow: hidden;
+	border: 10px solid #fff;
+	border-radius: 10px;
+	position: relative;
+}
+.image , .image li{
+	background-color: #fff;
+	width: 490px;
+	height: 170px;
+	overflow: hidden;
+}
+.image img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	opacity: 0;
+	cursor: pointer;
+}
+.count{
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+}
+.count li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 20px;
+	margin: 3px;
+}
+.count li.now{
+	background-color: red;
+	color: #fff;
+}
