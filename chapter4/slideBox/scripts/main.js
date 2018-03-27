@@ -5,22 +5,22 @@ $(document).ready(function(){
 	var index=0;
 	var imgLast=false;
 	var opacityTime,playTime;
+	var showImgTime=100;
 
-	// for(var i=0;i<$(".count li").length;i++){
-	// 	$($(".count li")[i]).attr("index",i);
-	// }
+
 
 	$("img").attr("opacity",0);
 
 	count();
 
-	function count(){
+	function count(){		//开始渐变
 		$("img").removeClass("now");
 		$($("img")[index]).addClass("now");
 		resetIpacity();
-		opacityTime=setInterval(function(){
-			addOpacity($("img")[index])
-		},100);
+		// opacityTime=setInterval(function(){
+		// 	addOpacity($("img")[index])},100);
+		addOpacity($("img")[index]);
+		
 	}
 
 
@@ -39,11 +39,16 @@ $(document).ready(function(){
 	playTime=setInterval(next,2000);
 
 	function addOpacity(e){		//减少透明度
-		$(e).attr("opacity",parseInt($(e).attr("opacity"))+1);
-		$(e).css("opacity",parseInt($(e).attr("opacity"))/10);
-		if($(e).css("opacity")==1){
-			clearInterval(opacityTime);
-		}
+		clearInterval(opacityTime);
+		var e=$(e);
+		opacityTime=setInterval(function(){
+			if(parseInt($(e).css("opacity"))<1){
+				$(e).attr("opacity",parseInt($(e).attr("opacity"))+1);
+				$(e).css("opacity",parseInt($(e).attr("opacity"))/10);
+			}
+			parseInt($(e).css("opacity"))==1 && clearInterval(opacityTime) &&console.log("clear");
+		},100)
+
 	}
 
 
@@ -51,6 +56,27 @@ $(document).ready(function(){
 		$("img").css("opacity",0);
 		$("img").attr("opacity",0);
 	}
+
+	$("img").mouseover(function(){
+		clearInterval(playTime);
+	})
+
+	$("img").mouseout(function(){
+		playTime=setInterval(next,2000);
+	})
+
+	for(var i=0;i<$(".count li").length;i++){
+		$($(".count li")[i]).attr("index",i);
+	}
+
+
+	$(".count li").mouseover(function(e){
+		clearInterval(playTime);
+		index=parseInt($(this).attr("index"))-1;
+		next();
+		console.log(index);
+	})
+
 
 })
 
