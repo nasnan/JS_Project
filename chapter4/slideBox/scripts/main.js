@@ -16,11 +16,10 @@ $(document).ready(function(){
 	function count(){		//开始渐变
 		$("img").removeClass("now");
 		$($("img")[index]).addClass("now");
+		$(".count li").removeClass("now");
+		$($(".count li")[index]).addClass("now");
 		resetIpacity();
-		// opacityTime=setInterval(function(){
-		// 	addOpacity($("img")[index])},100);
 		addOpacity($("img")[index]);
-		
 	}
 
 
@@ -39,14 +38,14 @@ $(document).ready(function(){
 	playTime=setInterval(next,2000);
 
 	function addOpacity(e){		//减少透明度
-		clearInterval(opacityTime);
+		if (opacityTime) clearInterval(opacityTime);
 		var e=$(e);
 		opacityTime=setInterval(function(){
 			if(parseInt($(e).css("opacity"))<1){
 				$(e).attr("opacity",parseInt($(e).attr("opacity"))+1);
 				$(e).css("opacity",parseInt($(e).attr("opacity"))/10);
 			}
-			parseInt($(e).css("opacity"))==1 && clearInterval(opacityTime) &&console.log("clear");
+			parseInt($(e).css("opacity"))==1 && clearInterval(opacityTime);
 		},100)
 
 	}
@@ -74,7 +73,10 @@ $(document).ready(function(){
 		clearInterval(playTime);
 		index=parseInt($(this).attr("index"))-1;
 		next();
-		console.log(index);
+	})
+
+	$(".count li").mouseout(function(e){
+		playTime=setInterval(next,2000);
 	})
 
 
