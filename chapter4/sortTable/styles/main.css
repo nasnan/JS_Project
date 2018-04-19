@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+table{
+	margin: 10px auto;
+	padding: 10px;
+	background-color: #ccc;
+}
+#slc{
+	position: relative;
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+}
+td,th{
+	padding: 5px 10px;
+}
+th{
+	cursor: pointer;
+}
+select{
+	height: 25px;
+}
+option{
+	line-height: 25px;
+}
