@@ -40,3 +40,4 @@ demo合集，实现网页[实例索引](http://www.fgm.cc/learn/)上的demo
 
 ### [第四节](https://github.com/nasnan/JS_Project/tree/master/chapter4)
 * [图片轮播幻灯片渐变效果](https://nasnan.github.io/JS_Project/chapter4/slideBox/main.html)
+* [点击表格头进行排序](https://nasnan.github.io/JS_Project/chapter4/sortTable/main.html)
