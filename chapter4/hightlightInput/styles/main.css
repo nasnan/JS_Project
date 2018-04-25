@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font:14px/1.5 \5fae\8f6f\96c5\9ed1;
+}
+
+#wrap{
+	border: 2px solid #f60;
+	width: 400px;
+	margin: 10px auto;
+}
+#toptitle{
+	border-bottom: 2px solid #f60;
+	color: #fe791e;
+	background-color: #ffebd7;
+	padding: 5px 10px;
+}
+#toptitle h2{
+	font-size: 16px;
+}
+#mainblk{
+	padding: 10px;
+	background-color: #fef4eb;
+}
+#mainblk p{
+	margin: 10px;
+	height: 31px;
+	line-height: 31px;
+	height: 31px;
+}
+#mainblk label{
+	width: 100px;
+	height: 31px;
+	text-align: right;
+	display:  inline-block;
+}
+#mainblk input{
+	line-height: 31px;
+	width: 203px;
+	padding-left: 5px;
+	height: 31px;
+	border: 0;
+	background: url(../img/input.png) no-repeat;
+	/*outline: none;*/
+}
+#submitBtn{
+	margin-left: 110px;
+	color: #fff;
+	background-color: #f60;
+	width: 104px;
+	height: 31px;
+	border: 0px;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#mainblk input:focus{
+	background-position: 0 -31px;
+}
