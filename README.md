@@ -42,3 +42,4 @@ demo合集，实现网页[实例索引](http://www.fgm.cc/learn/)上的demo
 * [图片轮播幻灯片渐变效果](https://nasnan.github.io/JS_Project/chapter4/slideBox/main.html)
 * [点击表格头进行排序](https://nasnan.github.io/JS_Project/chapter4/sortTable/main.html)
 * [当前输入框高亮显示](https://nasnan.github.io/JS_Project/chapter4/hightlightInput/main.html)
+* [星级评分系统](https://nasnan.github.io/JS_Project/chapter4/starCounts/main.html)
