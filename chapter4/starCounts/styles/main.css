@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font:12px/1.5 Arial;
+	color: #666;
+}
+#star{
+	position: relative;
+	width: 600px;
+	margin: 10px auto;
+}
+span{
+	float: left;
+	line-height: 19px;
+	height: 24px;
+}
+ul{
+	width: 120px;
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 10px;
+}
+li{
+	background: url(../img/star.png) no-repeat;
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+
+li.now, li.fixed{
+	background-position: 0 -28px;
+}
+#msg{
+	width: 180px;
+	height: 70px;
+	background: url(../img/icon.gif) no-repeat;
+	position: absolute;
+	display: none;
+	padding: 10px;
+}
+#msg p{
+	width: 160px;
+}
+#msg #msgtitle{
+	color: red;
+}
+#more{
+	display: inline-block;
+	height: 24px;
+}
+#more span:first-child{
+	color: red;
+	margin: 0 5px;
+}
