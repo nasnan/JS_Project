@@ -43,3 +43,6 @@ demo合集，实现网页[实例索引](http://www.fgm.cc/learn/)上的demo
 * [点击表格头进行排序](https://nasnan.github.io/JS_Project/chapter4/sortTable/main.html)
 * [当前输入框高亮显示](https://nasnan.github.io/JS_Project/chapter4/hightlightInput/main.html)
 * [星级评分系统](https://nasnan.github.io/JS_Project/chapter4/starCounts/main.html)
+
+
+### [第五节](https://github.com/nasnan/JS_Project/tree/master/chapter5)
