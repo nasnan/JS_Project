@@ -33,7 +33,7 @@ $(document).ready(function(){
 		}
 	}
 
-	function dspMsg(index){		//显示详情框
+	function dspMsg(index){		//show message content
 		let [p1,p2]=msg[index].split("|");
 		$("#msg p").eq(0).text(p1);
 		$("#msg p").eq(1).text(p2);
@@ -42,7 +42,7 @@ $(document).ready(function(){
 		$("#msg").css("display","block");
 	}
 
-	lis.click(function(){
+	lis.click(function(){	//click star
 		lis.removeClass("fixed");
 		let index=$(this).data("index");
 		dspStar(index,"fixed");
@@ -50,7 +50,7 @@ $(document).ready(function(){
 	})
 
 
-	function dspMore(index){
+	function dspMore(index){	//show evaluation
 		let star=msg[index].split("|")[0].split(" ")[0];
 		let content="("+msg[index].split("|")[1]+")";
 		$("#more span").text(star);
