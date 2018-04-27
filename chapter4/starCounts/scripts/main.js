@@ -7,12 +7,17 @@ $(document).ready(function(){
 			'5分 非常满意|质量非常好，与卖家描述的完全一致，非常满意'];
 
 	let lis=$("li");
-	for(let i=0;i<5;i++){
-		$(lis[i]).data("index",i);
-	}
+	(function(){	//add index
+		let i=0;
+		lis.each(function(){
+			$(this).data("index",i);
+			i++;
+		})
+	})();
+	
 	let msgDiv=$("#msg");
 
-	lis.hover(	//显示隐藏星级
+	lis.hover(	//show or hidden stars
 		function(){
 			let index=$(this).data("index");
 			dspStar(index,"now");
